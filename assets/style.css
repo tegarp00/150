@@ -133,3 +133,23 @@
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
+
+
+  #bg {
+    position: relative;
+    font-family: "bebas";
+  }
+  #bg::before{
+    /* filter: opacity(40%); */
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(./images/v996-024-x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: .5;
+      height: 100vh;
+  }
